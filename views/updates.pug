@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title= title
+    link(rel="stylesheet", href="/css/style.css")
+  body
+    h1= title
+    form(action="/update-cobj", method="POST")
+      div
+        label(for="name") Name:
+        input(type="text", name="name", required=true)
+      div
+        label(for="species") Species:
+        input(type="text", name="species")
+      div
+        label(for="description") Description:
+        input(type="text", name="description")
+      div
+        button(type="submit") Submit
+    br
+    a(href="/") Return to the homepage
