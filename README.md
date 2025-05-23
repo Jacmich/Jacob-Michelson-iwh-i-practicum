@@ -20,4 +20,8 @@ This Node.js app:
 
 ---
 
+## Custom Object List View
+
+[View the Plants custom object in HubSpot](https://app-na2.hubspot.com/contacts/242706316/objects/2-168459956/views/all/list)
+
 ## ✅ Cust
